@@ -1,4 +1,4 @@
-#You are provided with a Python script that is supposed to help in event planning, but it has errors. Identify and fix them.
+# #You are provided with a Python script that is supposed to help in event planning, but it has errors. Identify and fix them.
 attendees = int(input("Enter number of attendees: "))
 venue = "large hall"
 
@@ -6,3 +6,37 @@ if attendees > 100:
     print(venue)
 elif attendees < 100:
     print("conference room")
+    
+ attendees = int(input("Enter number of attendees: "))
+venue = "large hall"
+
+if attendees > 100:
+    print(venue)
+elif attendees < 100:
+    print("conference room")
+    
+food_choice = input("Would you prefer vegetarian food for your occasion?")
+if food_choice == "yes":
+        print ("checkout the Veggie Delight Caterers")
+else:
+        print ("the Gourmet Meals Caterers are really good")   
+    
+    
+
+# You are provided with a Python script that is supposed to guide a user through an adventure game, but it has some errors. Identify and fix them.
+place = input("Choose a place: forest or cave? ")
+
+if place == "forest":
+    action = input("climb a tree or cross a river?")
+    if action == "climb a tree":
+        print("You found a bird's nest!")
+    elif action == "cross a river":
+        print("You found a boat!")
+else :
+    action = input("do you want to light a torch or proceed in the dark?")
+    if action == "light a torch":
+        print("Henceforth, You are the torch")
+    elif action == "proceed in the dark":
+        print("Close your eyes, discover the power of your inner eye")
+
+
